@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Button from "../components/Button";
 import { personalInfo } from "../constants/personalInfo";
-import perfilImage from "../assets/foto_perfil/perfil-jose.png";
+const perfilImage = "/assets/foto_perfil/perfil-jose.png";
 import "./HeroSection.css";
 
 export default function HeroSection() {
